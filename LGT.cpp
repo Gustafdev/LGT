@@ -56,7 +56,7 @@ int main()
 				letter = (char)217;
 
 			if (randno == 12)
-				letter = (char)218;
+				letter = ' ';
 
 			cout << letter;
 		}
