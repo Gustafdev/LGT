@@ -8,13 +8,13 @@ int main()
 	int randno;
 	
 	srand(time(0));
-	int r, rader, kolumner;
+	int max_rader, max_kolumner;
 	cout << "Skriv in antal rader och kolumner: ";
-	cin >> rader >> kolumner;
+	cin >> max_rader >> max_kolumner;
 
-	for (r = 1; r <= rader; r++)
+	for (int rad = 1; rad <= max_rader; ++rad)
 	{
-		for (int i = 0; i <kolumner; i++)
+		for (int kolumn = 1; kolumn <= max_kolumner; ++kolumn)
 		{
 
 			randno = rand() % 14;
